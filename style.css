@@ -10,13 +10,26 @@ h1{
     text-align: center;
     color: green;
 }
+
+.footer {
+    position: absolute;
+    right: 0;
+    font-style: oblique;
+    font-weight: 100;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+  }
+
 .todo_list{
     width: 50%;
     float: left;
     text-align: center;
     border-style: dotted;
     border-color: tomato;
-    margin-top: 5%;
+    margin-top: 0%;
     padding-top: 1%;
     padding-bottom: 2%;
     margin-left: 30%;
