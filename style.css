@@ -1,0 +1,67 @@
+.body_compl{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: tomato;
+    padding-top: 1px;
+    font-size: 25px;
+}
+
+h1{
+    text-align: center;
+    color: green;
+}
+.todo_list{
+    width: 50%;
+    float: left;
+    text-align: center;
+    border-style: dotted;
+    border-color: tomato;
+    margin-top: 5%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    margin-left: 30%;
+    margin-bottom: 3%;
+}
+
+h2{
+    color: purple;
+}
+
+.todoclass{
+    color: black;
+    background-color: lightgoldenrodyellow;
+}
+
+div,button{
+    color: blue;
+    margin: 10px;
+}
+
+button{
+    font-size: 25px;
+}
+
+samp{
+    margin: 10px;
+}
+
+.progressclass{
+    color: green;
+    background-color: orange;
+
+}
+
+.donestrike{
+    color: orange;
+    background-color: green;
+}
+
+.invisible{
+    display: none;
+}
+
+.date_table{
+    border: 1px solid black;
+    margin-left: 3%;
+    padding: 1px;
+}
