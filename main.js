@@ -14,8 +14,8 @@ function addTodo(){
         alert("No due date entered");
         return false;
     }
-    console.log(duedate.value)
-    console.log(inputValue.value)
+    // console.log(duedate.value)
+    // console.log(inputValue.value)
     // adding new todo
     let compl = document.createElement("button")
     compl.innerText = "Completed"
@@ -46,7 +46,7 @@ function addTodo(){
     newTodo.appendChild(newTodoprogress);
     newTodoprogress.addEventListener('click',function progressTodo(event){
         checkprog = 1;
-        console.log(checkprog);
+        // console.log(checkprog);
         newTodo.classList.add("progressclass");
     });
     // mark done button
@@ -98,7 +98,7 @@ let clearButton = document.getElementsByClassName("clearAll")[0]
 clearButton.addEventListener("click", clearButtonAll);
 
 function clearButtonAll(){
-    console.log(arr.length)
+    // console.log(arr.length)
     for(var i = 0; i < arr.length; i++){
     let uniqueId = arr[i];
     var referenceTodo = document.getElementsByClassName(uniqueId)[0];
@@ -106,7 +106,7 @@ function clearButtonAll(){
     var referenceTodo3 = document.getElementsByClassName(uniqueId)[2];
     var referenceTodo4 = document.getElementsByClassName(uniqueId)[3];
     var referenceTodo1 = document.getElementById(uniqueId);
-    console.log(referenceTodo2);
+    // console.log(referenceTodo2);
     referenceTodo2.remove();   
     referenceTodo1.remove();
     referenceTodo.remove();
